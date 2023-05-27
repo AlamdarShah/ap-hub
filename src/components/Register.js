@@ -1,13 +1,16 @@
 import React from 'react'
 import {Form, Field, Formik, ErrorMessage} from "formik"
 // import { Button } from 'bootstrap'
-//import useSchema from '../schemas/validation';
+import useSchema from '../schemas/validation';
 
 export default function () {
 const usersData={
   name:"",
-  Email:"",
-  Password:""
+  contact:"",
+  email:"",
+  Address:"",
+  city:"",
+  Zip:""
 }
 const handleSubmit=(value)=>{
   console.log(value);
