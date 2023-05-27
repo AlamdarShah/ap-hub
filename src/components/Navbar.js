@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './Navbar.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
     return (
@@ -18,19 +20,25 @@ const Navbar = () => {
                                 <Link to='/' class="nav-link active" aria-current="page" >Home</Link>
                             </li>
                             <li class="nav-item">
-                                <Link to='/Products' class="nav-link active" aria-current="page" href="#">Products</Link>
+                                <Link to='/Products' class="nav-link " aria-current="page" href="#">Products</Link>
                             </li>
                             <li class="nav-item">
-                                <Link to='/Pricelist' class="nav-link active" aria-current="page" href="#">Price List</Link>
+                                <Link to='/Pricelist' class="nav-link " aria-current="page" href="#">Price List</Link>
                             </li>
                             <li class="nav-item">
-                                <Link to='/Aboutus' class="nav-link active" aria-current="page" href="#">About Us</Link>
+                                <Link to='/Aboutus' class="nav-link " aria-current="page" href="#">About Us</Link>
                             </li>
                             <li class="nav-item">
-                                <Link to='/Contactus' class="nav-link active" aria-current="page" href="#">Contact Us</Link>
+                                <Link to='/Contactus' class="nav-link " aria-current="page" href="#">Contact Us</Link>
                             </li>
                         </ul>
+
                     </div>
+                    {/* icon */}
+                    <div>
+                        
+                    <FontAwesomeIcon icon={faShoppingCart} />           
+                        </div>
                 </div>
             </nav>
         </div>

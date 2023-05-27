@@ -1,8 +1,20 @@
 .my-nav{
-    background-color: bisque;
+    /* background-color: rgb(62, 61, 60); */
+    background-color: white;
+   
 }
 
 .logo-img{
     height: 8vh;
     border-radius: 30%;
+}
+.navbar-nav{
+    /* margin-left: 200px!important; */
+    display: flex!important;
+    justify-content: end!important;
+
+}
+.nav-link{
+    /* color: white!important; */
+    color: black;
 }

@@ -7,21 +7,21 @@ const Mainsection = () => {
    <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img  src="main.jpg" className="d-block w-100 crsl-img" alt="..." />
+      <img  src="img1.jpg" className="d-block w-100 crsl-img" alt="..." />
       <div class="carousel-caption d-none d-md-block">
         <h2>First slide label</h2>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src="crsl2.jpg" className="d-block w-100 crsl-img" alt="..." />
+      <img src="img2.jpg" className="d-block w-100 crsl-img" alt="..." />
       <div class="carousel-caption d-none d-md-block">
         <h2>First slide label</h2>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src="crsl3.jpg" className="d-block w-100 crsl-img" alt="..." />
+      <img src="img4.jpg" className="d-block w-100 crsl-img" alt="..." />
       <div class="carousel-caption d-none d-md-block">
         <h2>First slide label</h2>
         <p>Some representative placeholder content for the first slide.</p>
