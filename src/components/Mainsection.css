@@ -1,0 +1,16 @@
+.img {
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+    width: 100%;
+    background-position: cover;
+    background-position: center;
+    background-clip: content-box;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+background-color: rgb(93, 74, 74);
+}
+
