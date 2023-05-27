@@ -31,7 +31,34 @@ code {
   display:flex;
   Width: 70%;
 }
+.cont{
+  height: 20%;
+}
+.card {
+  width: 300px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
 
+.card h2 {
+  margin-top: 0;
+}
+
+.card .contact-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card .contact-info i {
+  margin-right: 10px;
+}
+
+.card .contact-info span {
+  font-size: 14px;
+}
 table {
   width: 100%;
   border-collapse: collapse;
