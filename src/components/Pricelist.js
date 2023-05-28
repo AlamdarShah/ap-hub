@@ -1,10 +1,11 @@
 import React from 'react'
+import './pricelist.css'
 
  const Pricelist = () => {
   return (
 <div>
 
-    <div className="container "><h1>Pulses</h1>
+    <div className="container1 "><h1>Pulses</h1>
     
     
       
@@ -149,7 +150,7 @@ import React from 'react'
     </div>
 
 
-<div className="container "><h1>Spices</h1>
+<div className="container1 "><h1>Spices</h1>
     
     
       
@@ -477,7 +478,7 @@ import React from 'react'
 
   
 
-  <div className="container "><h1>More Itens</h1>
+  <div className="container1 "><h1>More Itens</h1>
     
     
       
