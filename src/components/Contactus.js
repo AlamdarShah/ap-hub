@@ -1,32 +1,55 @@
-import React from 'react'
-
-
-export const Contactus = () => {
+ import React,{useState} from 'react'
+ import './Contactus.css'
+const Contactus = () => {
+  const [formStatus, setFormStatus] = React.useState('Send')
+  const onSubmit = (e) => {
+    e.preventDefault()
+    setFormStatus('Submitting...')
+    const { name, email, message } = e.target.elements
+    let conFom = {
+      name: name.value,
+      email: email.value,
+      message: message.value,
+    }
+    console.log(conFom)
+  }
   return (
-    <div className="cont" >
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img  src="https://is-enterprises.com/wp-content/uploads/2018/05/contact-1.jpg" className="d-block w-100 crsl-img" alt="..." />
-      
+    <div>
+      <div className='row'>
+        <div className='contact-form col-lg-6 col-sm-12'>
+        <center><h1> Contact Form</h1></center>
+      <form onSubmit={onSubmit}>
+        <div className="mb-3">
+          <label className="form-label" htmlFor="name">
+            Name
+          </label>
+          <input className="form-control" type="text" id="name" required />
+        </div>
+        <div className="mb-3">
+          <label className="form-label" htmlFor="email">
+            Email
+          </label>
+          <input className="form-control" type="email" id="email" required />
+        </div>
+        <div className="mb-3">
+          <label className="form-label" htmlFor="message">
+            Message
+          </label>
+          <textarea className="form-control" id="message" required />
+        </div>
+        <button className="btn btn-primary btn-lg" type="submit">
+          {formStatus}
+        </button>
+      </form>
+
+    </div>
+    
+    <div className='contact-img col-lg-6 col-sm-12'>
+<img className="contact-img" src="contactImg.png" alt='imag' />
     </div>
     </div>
-    <div class="card">
-    <h2>Contact Information</h2>
-    <div class="contact-info">
-      <i class="fas fa-envelope"></i>
-      <span>example@example.com</span>
     </div>
-    <div class="contact-info">
-      <i class="fas fa-phone"></i>
-      <span>+1234567890</span>
-    </div>
-    <div class="contact-info">
-      <i class="fas fa-map-marker-alt"></i>
-      <span>123 Street, City, Country</span>
-    </div>
-  </div>
- 
-  <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
-    </div>
+    
   )
 }
+export default Contactus;

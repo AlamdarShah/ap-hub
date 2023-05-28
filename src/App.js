@@ -1,11 +1,12 @@
 import './App.css';
 import Aboutus from './components/Aboutus';
-import { Contactus } from './components/Contactus';
+// import { Contactus } from './components/Contactus';
 import { Home } from './components/Home';
 import Navbar  from './components/Navbar';
 import Pricelist from './components/Pricelist';
 import Products from './components/Products';
 import { Routes,Route } from 'react-router-dom';
+import Contactus from './components/Contactus';
 
 function App() {
   return (
