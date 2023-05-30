@@ -1,14 +1,15 @@
 import './App.css';
-import Mainsection from './components/Mainsection';
-import Navbar  from './components/Navbar';
-import Product from './components/Product';
+import More from './components/More';
+import Pulses from './components/Pulses';
+import Spices from './components/Spices';
+import Cart from './components/Cart';
+
 
 function App() {
   return (
     <div className="App">
-     <Navbar />
-     <Product/>
-     <Mainsection />
+    
+     
     </div>
   );
 }
