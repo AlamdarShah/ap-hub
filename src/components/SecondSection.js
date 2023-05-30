@@ -6,11 +6,12 @@ const SecondSection = () => {
     <div>
     <div className="row">
   <div className="col-lg-6 col-md-12 col-sm-12">
-    <div className="first-h1"> <h1>Welcome to Geeks UI <br /> Learning Application</h1></div> 
-    <div className="first-h4">  <h4>Hand-picked Instructor and expertly crafted <br /> courses, designed for the modern students and <br />
-        entrepreneur.</h4></div>
-    <div className="btn-div"> <button type="button" className="btn btn-dark btn-lg">Browse Courses</button>
-      <button type="button" className="btn btn-light btn-lg">Are You Instructor</button></div>
+    
+    <div className="first-h1"> <h1>A Smarter Way To <br /> Get Your Ingredients</h1></div> 
+    <div className="first-h4">  <h4>Better Service <br /> More Selection <br />
+        Customized Packaging</h4></div>
+    <div className="btn-div"> <button type="button" className="btn btn-dark btn-lg">Introduction</button>
+      <button type="button" className="btn btn-primary btn-lg mybtn">More...</button></div>
   </div>
   <div className="col-lg-6 col-sm-12">
     <img className="main-hero-img" src="img3.jpg" alt='imag' />
