@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import "./Product.css";
 import db from "../db2";
@@ -51,3 +52,15 @@ export default function Spices() {
     </div>
   );
 }
+=======
+import React from 'react'
+
+ const More = () => {
+  return (
+    <div>
+        <h1>More items page here</h1>
+    </div>
+  )
+}
+export default More;
+>>>>>>> 780275772f416fa072cfb7a85285cc5b9713b5e3

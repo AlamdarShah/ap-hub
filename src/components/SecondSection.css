@@ -1,0 +1,21 @@
+h4{
+color: green;
+}
+.second-section-img{
+    width: 150px;
+    height: 100px;
+    justify-content: center;
+    
+}
+.second-section-text{
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.main-hero-img{
+    margin-top: 70px;
+    width: 450px;
+    height: 250px;
+}
+.first-h1{
+    margin-top: 70px;
+}
