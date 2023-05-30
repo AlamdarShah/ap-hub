@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useState } from 'react';
 import "./Product.css";
 import db from "../db";
@@ -52,15 +51,3 @@ export default function Pulses() {
     </div>
   );
 }
-=======
-import React from 'react'
-
- const Pulses = () => {
-  return (
-    <div>
-        <h1>Pulses page here</h1>
-    </div>
-  )
-}
-export default Pulses;
->>>>>>> 780275772f416fa072cfb7a85285cc5b9713b5e3
