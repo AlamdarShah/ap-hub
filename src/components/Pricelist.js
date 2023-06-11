@@ -1,5 +1,6 @@
 import React from 'react'
 import './pricelist.css'
+import "./Footer";
 
  const Pricelist = () => {
   return (
@@ -571,11 +572,10 @@ import './pricelist.css'
           
         </tbody>
       </table>
-    
+    </div>
   </div>
   </div>
-  
-  </div>
+   
   )
 }
 export default Pricelist;

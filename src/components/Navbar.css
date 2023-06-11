@@ -2,10 +2,7 @@
     height: 8vh;
     border-radius: 30px;
 }
-.navbar{
-   position: fixed;
-   top: 0; 
-}
+
 *{
     position: relative;
 }

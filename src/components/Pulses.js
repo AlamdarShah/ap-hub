@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./Product.css";
-import db from "../db";
+import db from "../db2";
 import Cart from './Cart';
 
 export default function Pulses() {
@@ -46,7 +46,7 @@ export default function Pulses() {
           </div>
         ))}
       </div>
-
+      
       {/* <Cart cartItems={cartItems || []} /> */}
     </div>
   );

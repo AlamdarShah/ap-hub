@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./Product.css";
-import db from "../db2";
+import db from "../db3";
 import Cart from './Cart';
 
 export default function Spices() {
@@ -12,7 +12,7 @@ export default function Spices() {
 
   return (
     <div>
-      <h1>Pulses</h1>
+      <h1>More Items</h1>
       <div className="container d-flex align-items-center justify-content-center position-relative flex-wrap">
         {db.map((item) => (
           <div className="card d-flex position-relative flex-column" key={item.id}>

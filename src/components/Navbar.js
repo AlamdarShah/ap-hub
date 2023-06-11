@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul className="nav justify-content-center ">
                         <img className='logo-img' src='ap-hub.png' alt='logo-img'></img>
                         <li className="nav-item">
                             <Link to="/" className="nav-link active" aria-current="page" >Home</Link>
@@ -24,6 +24,9 @@ const Navbar = () => {
                                 <li><Link to="/Pulses" className="dropdown-item" >Pulses</Link></li>
                                 <li><Link to="/More" className="dropdown-item" >More</Link></li>
                             </ul>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/Pricelist" className="nav-link" >PriceList</Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/Contactus" className="nav-link" >Contact US</Link>
